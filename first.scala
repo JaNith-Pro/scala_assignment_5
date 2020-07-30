@@ -17,7 +17,7 @@ class Rational (x:Int,y:Int){
     
      def add(r:Rational) = new Rational(this.numer*r.demom + r.numer*this.demom,r.demom*this.demom)
 
-     def neg:Rational = new Rational(-numer,demom)
+     def neg:Rational = new Rational(-numer,demom)        //Q1
 
      def sub(r:Rational) = add(r.neg)
 
