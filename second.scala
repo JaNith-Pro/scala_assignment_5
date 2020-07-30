@@ -36,7 +36,7 @@ class Account(id:String, n: Int, b: Double)
 
   def withdraw(a:Double) =this.balance=this.balance-a
   def deposit(a:Double) =this.balance=this.balance+a
-  def transfer(a:Account,b:Double)= {
+  def transfer(a:Account,b:Double)= {                      //Q3
     this.balance=this.balance-b
     a.balance = a.balance+b
   }
